@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /Users/huoyongfei/.yarn/bin/yarn.js add jest jest-dom jest-global --dev
+
+PATH: 
+  /Users/huoyongfei/.rvm/gems/ruby-2.4.1/bin:/Users/huoyongfei/.rvm/gems/ruby-2.4.1@global/bin:/Users/huoyongfei/.rvm/rubies/ruby-2.4.1/bin:/Users/huoyongfei/.yarn/bin:/Users/huoyongfei/.config/yarn/global/node_modules/.bin:/Users/huoyongfei/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/huoyongfei/.rvm/gems/ruby-2.4.1/bin:/Users/huoyongfei/.rvm/gems/ruby-2.4.1@global/bin:/Users/huoyongfei/.rvm/rubies/ruby-2.4.1/bin:/Users/huoyongfei/.yarn/bin:/Users/huoyongfei/.config/yarn/global/node_modules/.bin:/Users/huoyongfei/.cargo/bin:/Users/huoyongfei/.rvm/bin:/Users/huoyongfei/.rvm/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/jest-global: Not found
+      at Request.params.callback [as _callback] (/Users/huoyongfei/.yarn/lib/cli.js:66058:18)
+      at Request.self.callback (/Users/huoyongfei/.yarn/lib/cli.js:129541:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/huoyongfei/.yarn/lib/cli.js:130513:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/huoyongfei/.yarn/lib/cli.js:130435:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1092:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "code_snippets",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:hyf152632/code_snippets.git",
+    "author": "huo yongfei <773459418@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
